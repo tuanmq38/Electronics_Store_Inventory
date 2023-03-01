@@ -1,0 +1,65 @@
+--USE [ElectronicShopDB]
+--GO
+
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (1, 'Kara O''Mannion', '753-739-0862', '17 Pearson Drive', 'komannion0@jiathis.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (2, 'Lanni MacKessock', '647-442-1228', '374 Sullivan Alley', 'lmackessock1@so-net.ne.jp');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (3, 'Anne-marie Gurnett', '667-599-7561', '79 Quincy Parkway', 'agurnett2@photobucket.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (4, 'Jojo Pinckney', '999-895-5903', '9 Pepper Wood Way', 'jpinckney3@cafepress.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (5, 'Yasmin Wile', '258-773-8966', '66632 Arrowood Way', 'ywile4@yelp.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (6, 'Nicola Mackerel', '874-233-7813', '68772 Parkside Lane', 'nmackerel5@topsy.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (7, 'Ofelia Ebbens', '727-344-9821', '293 Hagan Parkway', 'oebbens6@wufoo.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (8, 'Lyndsey Hauger', '976-974-4601', '075 Heffernan Court', 'lhauger7@amazon.co.uk');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (9, 'Bendick Petersen', '351-197-0734', '07 Little Fleur Place', 'bpetersen8@washingtonpost.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (10, 'Evangelina Sondon', '311-863-4227', '248 Cody Street', 'esondon9@psu.edu');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (11, 'Ado Nattriss', '430-826-8622', '4312 Buhler Lane', 'anattrissa@amazonaws.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (12, 'Wolfy Westwell', '895-812-2017', '0617 Glendale Center', 'wwestwellb@nbcnews.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (13, 'Agosto Longstreeth', '845-592-7849', '8529 Troy Center', 'alongstreethc@tmall.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (14, 'Sigmund Pibworth', '529-806-4973', '045 Chive Lane', 'spibworthd@fda.gov');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (15, 'Stacy Groundwator', '819-594-5811', '317 Barby Place', 'sgroundwatore@zdnet.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (16, 'Rab Browne', '986-127-0556', '27455 Arkansas Terrace', 'rbrownef@usda.gov');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (17, 'Faber Laurenz', '342-276-8753', '89688 Banding Pass', 'flaurenzg@symantec.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (18, 'Tasia Jepps', '647-492-3982', '89130 Schmedeman Street', 'tjeppsh@howstuffworks.com');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (19, 'Carleen Marjoram', '132-563-0975', '74 Shelley Pass', 'cmarjorami@yale.edu');
+--insert into Customers (CustomerId, Name, Phone, Address, Email) values (20, 'Niki Stradling', '892-852-8956', '4 Lighthouse Bay Circle', 'nstradlingj@taobao.com');
+
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (1,'12-48V AC - 200mA - ON/OFF Switch',100,20,'ON/OFF Switch');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (2,'110-240V AC - 39mA - ON/OFF Switch',100,20,'ON/OFF Switch');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (3,'12-48V AC - 200mA - Movement Detector',100,30,'Movement Detector');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (4,'110-240V AC - 39mA - Movement Detector',100,30,'Movement Detector');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (5,'120V AC - 6A Plug-in',100,5,'Plug-in');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (6,'24V DC - 6A Plug-in',100,5,'Plug-in');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (7,'120V AC - 6A Faston with Flange Mount',100,8,'Faston with Flange Mount');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (8,'24V DC - 6A Faston with Flange Mount',100,8,'Faston with Flange Mount');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (9,'120V AC - 8A Plug-in',100,5,'Plug-in');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (10,'24V DC - 8A Plug-in',100,5,'Plug-in');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (11,'120V AC - 8A Faston with Flange Mount',100,8,'Faston with Flange Mount');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (12,'24V DC - 8A Faston with Flange Mount',100,8,'Faston with Flange Mount');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (13,'230V AC - 25A Single-Phase',100,25,'1 Phase');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (14,'3x230/400V AC - 65A Three-Phase',100,45,'3 Phase');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (15,'230V AC - 10A plug-in 5mm pin',100,4,'Plug-in 5mm pin');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (16,'12V DC - 10A plug-in 3.5mm pin',100,4,'Plug-in 3.5mm pin');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (17,'48V DC - 16A PCB 3.5 mm pin flat',100,4,'PCB 3.5 mm pin flat');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (18,'110V AC - 8A plug-in 5mm pin',100,4,'Plug-in 5mm pin');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (19,'24V DC - 16A PCB Mount',100,10,'PCB Mount');
+----insert into Inventory (InventoryId, Name, Quantity, UnitPrice, Type) values (20,'120V AC - 16A Faston with Flange Mount',100,10,'Faston with Flange Mount');
+
+--insert into OrderDetails (OrderId, CustomerId, OrderDate) values (1, 10, '2018-07-20');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (2, 7, '2011-08-31');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (3, 19, '2019-08-12');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (4, 20, '2017-09-22');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (5, 2, '2011-10-07');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (6, 6, '2015-05-23');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (7, 17, '2018-06-24');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (8, 13, '2011-05-02');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (9, 13, '2011-06-22');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (10, 9, '2019-08-05');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (11, 4, '2019-12-26');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (12, 10, '2014-06-15');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (13, 20, '2019-05-14');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (14, 6, '2021-08-07');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (15, 5, '2018-07-23');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (16, 18, '2018-05-16');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (17, 19, '2019-10-15');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (18, 15, '2016-11-15');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (19, 9, '2011-07-22');
+--insert into Orders (OrderId, CustomerId, OrderDate) values (20, 15, '2018-05-26');
